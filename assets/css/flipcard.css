@@ -48,3 +48,11 @@
     transform: rotateY(180deg);
   }
 
+  @media screen and (max-width: 700px){
+    .flip-card-front{
+      width: 100%;
+      margin-right: 33.33%;
+      margin-left: 33.33%;
+      display: block;
+    }
+  }

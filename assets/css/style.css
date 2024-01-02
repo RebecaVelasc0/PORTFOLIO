@@ -194,3 +194,10 @@ nav {
 .redes img{
     display: inline-block;
 }
+
+@media screen and (max-width: 700px){
+    .tec h2{
+    text-align: start;
+     padding-bottom: 2%;
+    }
+  }

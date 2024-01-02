@@ -167,6 +167,16 @@ nav {
     margin: 0;
     text-align: center;
 }
+
+.titulo-projetos h2, img{
+    display: inline-block;
+}
+
+.titulo-projetos img{
+    margin-bottom: 1.5%;
+    margin-left: 1%;
+}
+
 .projetos h2{
     margin-bottom: 2%;
     font-size: 50px;
@@ -184,6 +194,32 @@ nav {
     margin-bottom: 1%;
 }
 
+.tec h2, #comp{
+    display: inline-block;
+}
+
+#comp{
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+
+.formacoes h2, img{
+    display: inline-block;
+}
+
+.formacoes img{
+    margin-bottom: 2%;
+}
+
+.info h2, img{
+    display: inline-block;
+}
+.info img{
+    margin-bottom: 2.5%;
+    margin-left: 1%;
+}
+
+
 .tel img, h3{
     display: inline-block;
 }
@@ -199,5 +235,17 @@ nav {
     .tec h2{
     text-align: start;
      padding-bottom: 2%;
+    }
+
+    #comp{
+        margin-bottom: 5%;
+    }
+
+    .info img{
+        margin-bottom: 4%;
+    }
+
+    .titulo-projetos img{
+        margin-bottom: 3.5%;
     }
   }

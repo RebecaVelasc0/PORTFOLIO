@@ -223,6 +223,9 @@ nav {
 .tel img, h3{
     display: inline-block;
 }
+.tel img{
+    margin-left: 1%;
+}
 
 .footer h2{
     font-size: 25px;

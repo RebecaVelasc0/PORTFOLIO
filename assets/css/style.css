@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,400&family=Roboto:wght@100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: justify;
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: #faf2f2;
+    
+}
+#imgrebeca{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin-top: 6%;
+    position: inherit;
+    /* margin: 4% 4% 0% 4%; */
+}
+.eu{
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+
+}
+.eu h4, h1{
+    text-align: center;
+    position: inherit;
+}
+
+.eu h1{
+    font-size: 50px;
+}
+.eu h4{
+    font-size: 30px;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    color: black;
+    font-weight: 400;
+    position: inherit;
+}
+
+.container-fluid.text-start{
+    padding: 0;
+}
+
+.parallax{
+    padding: 0;
+    width: 100%;
+    height: 100vh !important;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    
+}
+
+.parallax:after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 50%, #000 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 50%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 50%, #000 100%);
+}
+
+p{
+    text-align: justify;
+    font-size: 15px;
+}
+main h2{
+    text-align: start;
+}
+
+header {
+    background:  #47416e;
+    color: white;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+}
+
+#redes img{
+    width: 45px;
+    height: 45px;
+}
+
+.sobre{
+    /* background-color: rgb(198, 139, 231); */
+    padding: 2%;
+    text-align: center;
+}
+
+.projetos{
+    /* background-color: rgb(198, 139, 231); */
+    padding: 3%;
+    text-align: start;
+}
+.tec{
+    padding: 2%;
+    background-color: #E0AED0;
+}
+.tec h2{
+    font-size: 50px;
+    margin-bottom: 5%;
+    text-align: center;
+    color: white;
+}
+.tec p{
+    margin-top: 20%;
+}
+.sobre h2{
+    font-size: 50px;
+    margin-bottom: 4%;
+}
+
+.footer{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    color: white;
+    background-color: #47416e;
+}
+.footer h3{
+    font-size: 20px;
+}
+.footer p{
+    margin: 0;
+    text-align: center;
+}
+.projetos h2{
+    margin-bottom: 2%;
+    font-size: 50px;
+}
+.projetos h3, h4{
+    text-align: start;
+}
+
+.myslides img{
+    height: 818px;
+}
+
+.email img, h3{
+    display: inline-block;
+    margin-bottom: 1%;
+}
+
+.tel img, h3{
+    display: inline-block;
+}
+
+.footer h2{
+    font-size: 25px;
+}
+.redes img{
+    display: inline-block;
+}

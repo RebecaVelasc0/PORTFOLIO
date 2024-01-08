@@ -286,7 +286,10 @@ nav {
     .tel{
         margin-bottom: 3%;
     }
-    .arrow{
+    .lombada{
+        position: inherit;
+    }
+    .arrow img{
         position: inherit;
     }
     .seta{

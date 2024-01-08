@@ -74,9 +74,6 @@ main{
     width: 100%;
     position: absolute;
     z-index: 8;
-    /* background: -moz-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 50%, #000 100%);
-    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 50%, #000 100%);
-    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 50%, #000 100%); */
 }
 
 p{
@@ -289,30 +286,19 @@ nav {
     .tel{
         margin-bottom: 3%;
     }
+    .arrow{
+        position: inherit;
+    }
+    .seta{
+        background-image: none;
+    }
+    .parallax:after{
+        background: -moz-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 50%, #000 100%);
+        background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 50%, #000 100%);
+        background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 50%, #000 100%);
+    }
   }
 
-@media screen and (width: 375px){
-    .arrow{
-        top: 105.5%;
-    }
-}
-@media screen and (width: 390px){
-    .arrow{
-        top: 104.5%;
-    }
-}
-
-@media screen and (width: 360px){
-    .arrow{
-        top: 104.9%;
-    }
-}
-
-@media screen and (width: 820px){
-    .arrow{
-        top: 103.3%;
-    }
-}
 @media screen and (width: 1024px){
     .arrow{
         top: 102.9%;
@@ -322,17 +308,6 @@ nav {
 @media screen and (width: 912px){
     .arrow{
         top: 102.9%;
-    }
-}
-
-@media screen and (width: 540px){
-    .arrow{
-        top: 105%;
-    }
-}
-@media screen and (width: 280px){
-    .arrow{
-        top: 106%;
     }
 }
 @media screen and (width: 1280px){

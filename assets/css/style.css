@@ -74,9 +74,9 @@ main{
     width: 100%;
     position: absolute;
     z-index: 8;
-    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 50%, #000 100%);
+    /* background: -moz-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 50%, #000 100%);
     background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 50%, #000 100%);
-    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 50%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0) 50%, #000 100%); */
 }
 
 p{
@@ -234,6 +234,40 @@ nav {
     display: inline-block;
 }
 
+.arrow{
+    /* margin-top: -10px; */
+    position: absolute;
+    text-align: center;
+    top: 104%;
+    width: 100%;
+    z-index: 5;
+}
+.seta{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    margin-top: 2px;
+    left: 50%;
+    background-image: url("../img/seta.png");
+    background-size: contain;
+    transform: translateX(-50%);
+    animation-name: seta;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes seta{
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 8px;
+    }
+}
+
+
 @media screen and (max-width: 700px){
     .tec h2{
     text-align: start;
@@ -256,3 +290,53 @@ nav {
         margin-bottom: 3%;
     }
   }
+
+@media screen and (width: 375px){
+    .arrow{
+        top: 105.5%;
+    }
+}
+@media screen and (width: 390px){
+    .arrow{
+        top: 104.5%;
+    }
+}
+
+@media screen and (width: 360px){
+    .arrow{
+        top: 104.9%;
+    }
+}
+
+@media screen and (width: 820px){
+    .arrow{
+        top: 103.3%;
+    }
+}
+@media screen and (width: 1024px){
+    .arrow{
+        top: 102.9%;
+    }
+}
+
+@media screen and (width: 912px){
+    .arrow{
+        top: 102.9%;
+    }
+}
+
+@media screen and (width: 540px){
+    .arrow{
+        top: 105%;
+    }
+}
+@media screen and (width: 280px){
+    .arrow{
+        top: 106%;
+    }
+}
+@media screen and (width: 1280px){
+    .arrow{
+        top: 105%;
+    }
+}

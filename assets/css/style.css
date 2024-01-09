@@ -85,7 +85,7 @@ main h2{
 }
 
 header {
-    background:  #47416e;
+    background:  #35155D;
     color: white;
     padding: 15px 0;
 }
@@ -155,14 +155,26 @@ nav {
     padding-top: 3%;
     padding-bottom: 2%;
     color: white;
-    background-color: #47416e;
+    background-color: #35155D;
 }
 .footer h3{
-    font-size: 20px;
+    font-size: 18px;
+  
 }
 .footer p{
-    margin: 0;
+    margin-bottom: 0;
+    margin-top: 1%;
     text-align: center;
+}
+
+.email a, .tel a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.email a:hover, .tel a:hover {
+  color: rgb(207, 172, 240);
+
 }
 
 .titulo-projetos h2, img{
@@ -221,7 +233,11 @@ nav {
     display: inline-block;
 }
 .tel img{
-    margin-left: 1%;
+    margin-bottom: 3%;
+}
+
+.tel, .email{
+    display: inline-block;
 }
 
 .footer h2{
@@ -255,6 +271,13 @@ nav {
     animation-direction: alternate;
 }
 
+hr{
+    box-sizing: border-box;
+    width: 100%;
+    border-color: white;
+    
+}
+
 @keyframes seta{
     0%{
         top: 0px;
@@ -271,6 +294,10 @@ nav {
      padding-bottom: 2%;
     }
 
+    .footer p{
+        margin-top: 3%;
+    }
+
     #comp{
         margin-bottom: 5%;
     }
@@ -283,13 +310,10 @@ nav {
         margin-bottom: 3.5%;
     }
 
-    .tel{
-        margin-bottom: 3%;
-    }
     .lombada{
         position: inherit;
     }
-    .arrow img{
+    .arrow img, .arrow{
         position: inherit;
     }
     .seta{
